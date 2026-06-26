@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useAuth } from '../context/AuthContext'
 import { getInventoryForPharmacy } from '../utils/search'
-import medicines from '../data/medicines'
 
 export default function PharmacyDashboard() {
   const { user } = useAuth()
